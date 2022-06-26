@@ -1,0 +1,431 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+hr.red-line{
+	border: 5px solid red;
+}
+hr.green-line{
+	border: 5px solid green;
+}
+
+/*DESKTOP SECTION START*/
+/*header section start*/
+header .top-header {
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+header .top-header .weather-sec svg{
+	margin-right: 10px;
+}
+header .top-header .weather-sec h6{
+	margin-right: 15px;
+	text-transform: capitalize;
+}
+header .top-header .option-sec ul li{
+	margin-right: 15px;
+}
+header .top-header .option-sec ul li a{
+	color: #000;
+}
+header .top-header .social-icon svg{
+	margin-right: 15px;
+	font-size: 25px;
+}
+header .logo-sec .ad{
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/glasses.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 50%;
+	padding: 20px;
+}
+header .logo-sec .ad .box .mini-box{
+	width: 33.33%;
+	text-align: center;
+}
+header .logo-sec .ad .box .mini-box button{
+	background: none;
+	border: 2px solid white;
+	text-transform: capitalize;
+	font-size: 20px;
+}
+header .menu-sec{
+	background: #303030;
+	border-bottom: 15px solid #019184;
+}
+header .menu-sec ul li{
+	margin-right: 15px;
+	text-transform: capitalize;
+	padding: 25px;
+	transition: 0.3s all;
+}
+header .menu-sec ul li:hover{
+	background: #000;
+}
+header .menu-sec ul li.active{
+	background: #000;
+}
+header .menu-sec ul li a{
+	color: #fff;
+}
+/*header section end*/
+
+
+/*banner section start*/
+.banner .row .left-side {
+	position: relative;
+}
+.banner .row .left-side .title-sec{
+	position: absolute;
+	bottom: 15px;
+	left: 25px;
+}
+.banner .row .left-side .title-sec .tag h4{
+	width: 13rem;
+	padding: 10px;
+}
+.banner .row .right-side .title-sec .tag{
+	width: 1rem;
+}
+/*banner section end*/
+
+
+/*world-news section start*/
+.world-news .row .col-8 .filter ul li{
+	margin-right: 18px;
+	font-size: 1.5rem;
+	text-transform: capitalize;
+}
+.world-news .row .col-8 .filter ul li a{
+	color: #000;
+}
+.world-news .row .col-8 hr{
+	height: 5px;
+}
+.world-news .row .col-8 .news-sec .box .mini-box {
+	width: 50%;
+}
+.world-news .row .col-8 .news-sec .box .right-box .lunch-box{
+	margin-bottom: 30px;
+}
+.world-news .row .col-8 .news-sec .box .right-box .lunch-box .img-sec{
+	width: 50%;
+}
+.world-news .row .col-4 .social-icon .box{
+	border: 1px solid #000;
+	padding: 50px;
+}
+.world-news .row .col-4 .social-icon .box .img-sec svg{
+	font-size: 50px;
+}
+.world-news .row .col-4 .social-icon .box .img-sec{
+	margin-bottom: 15px;
+}
+.world-news .row .col-4 .social-icon .box .discription h4{
+	font-weight: 700;
+	font-size: 30px;
+}
+.world-news .row .col-4 .social-icon .box .discription h5{
+	font-size: 25px;
+	text-transform: capitalize;
+}
+.world-news .row .col-4 .ad-sec .ad-box .box{
+	background: url(../img/glasses.jpg);
+	background-size: cover;
+	height: 37vh;
+	padding: 50px;
+}
+/*world-news section end*/
+
+
+/*travel guide section start*/
+.travel-guide hr{
+	height: 5px;
+}
+.swiper {
+	width: 100%;
+	height: 100%;
+	padding: 70px;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+
+	/* Center slide text vertically */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.swiper-slide .box .img-sec{
+	position: relative;
+}
+.swiper-slide .box .tag{
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+	color: red;
+	width: 1rem;
+}
+.swiper-slide .box .tag h4{
+	background: #000;
+	width: 8rem;
+	color: #fff;
+	text-transform: capitalize;
+}
+
+.swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+/*travel section end*/
+
+
+/*tech-health section start*/
+.tech-health .row .tech-sec hr.blue-line{
+	border: 5px solid blue;
+}
+.tech-health .row .tech-sec .img-sec{
+	position: relative;
+}
+.tech-health .row .tech-sec .img-sec .tag{
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	color: #fff;
+	width: 1rem;
+}
+.tech-health .row .tech-sec .img-sec h4{
+	background: #000;
+	width: 7rem;
+	text-align: center;
+}
+.tech-health .row .col-6 .two-blogs .mini-box .lunch-box{
+	margin-bottom: 15px;
+}
+.tech-health .row .col-6 .two-blogs .mini-box .lunch-box .img-sec{
+	width: 15rem;
+}
+.tech-health .row .health-sec hr.red-line{
+	border: 5px solid red;
+}
+.tech-health .row .health-sec .img-sec{
+	position: relative;
+}
+.tech-health .row .health-sec .img-sec .tag{
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	color: #fff;
+	width: 1rem;
+}
+.tech-health .row .health-sec .img-sec h4{
+	background: #000;
+	width: 7rem;
+	text-align: center;
+}
+/*tech-health section end*/
+
+
+/*shorts section start*/
+.shorts .row .col-3{
+	padding: 0;
+	width: 24%;
+	margin: auto;
+}
+.shorts .row .col-3 .img-sec{
+	position: relative;
+}
+.shorts .row .col-3 .text-sec{
+	position: absolute;
+	top: 60px;
+	color: #fff;
+	text-align: center;
+	display: none;
+	transition: 0.7s all;
+}
+.shorts .row .col-3:hover .text-sec{
+	display: block;
+	transition: 0.7s all;
+}
+.shorts .row .col-3 .text-sec .tag h4{
+	background: #000;
+	width: 8rem;
+}
+/*shorts section end*/
+
+
+.sports-recips .row .col-8 .lunch-box{
+	margin-bottom: 20px;
+}
+.sports-recips .row .col-8 .lunch-box .img-sec{
+	width: 45rem;
+}
+.sports-recips .row .col-8 .lunch-box .text-sec .tag-name .tag{
+	background: #000;
+	color: #fff;
+	padding: 5px 15px;
+}
+/*sport-reciepe section end*/
+
+
+/*footer section start*/
+footer{
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/snow-walk.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 50px 0;
+}
+
+footer .social-icon svg{
+	font-size: 80px;
+	margin-right: 15px;
+	box-shadow: inset 0 0 2000px rgba(255, 255, 255, .2);
+	padding: 25px;
+}
+/*footer section end*/
+/*DESKTOP SCREEN END*/
+
+/*LAPTOP SCREEN START*/
+@media screen and (min-device-width: 768px) and (max-device-width: 1366px){
+	header .logo-sec .container-fluid{
+		display: block!important;
+	}
+	header .logo-sec .container-fluid .logo h2{
+		text-align: center;
+	}
+	header .logo-sec .container-fluid .ad{
+		width: 100%;
+	}
+	header .menu-sec .menu-icon{
+		display: none;
+	}
+	header .menu-sec ul li {
+		padding: 15px;
+	}
+	header .menu-sec ul li a svg, h4{
+		font-size: 15px!important;
+	}
+	header .search-bar svg{
+		font-size: 20px !important;
+	}
+
+	.banner .blogs .row .right-side .row .col-6 h2{
+		font-size: 1rem;
+	}
+	.banner .row .left-side .title-sec .tag h4{
+		width: 5rem;
+	}
+
+	.world-news .row .col-8 .title .title-sec h2{
+		font-size: 25px;
+	}
+	.world-news .row .col-8 .filter ul li{
+		font-size: 15px;
+	}
+	.world-news .row .col-8 .news-sec .box .left-box .title h2{
+		font-size: 1.5rem;
+	}
+	.world-news .row .col-8 .news-sec .box .left-box .discription p{
+		font-size: 1.2rem!important;
+	}
+	.world-news .row .col-8 .news-sec .box .right-box .lunch-box .title h2{
+		font-size: 1rem!important;
+	}
+	.world-news .row .col-4 .social-icon .box{
+		padding: 30px;
+	}
+	.world-news .row .col-4 .ad-sec .ad-box .box h2{
+		font-size: 1.5rem !important;
+	}
+	.world-news .row .col-4 .ad-sec .ad-box .box .slogan{
+		font-size: 1rem;
+		margin-top: 0!important;
+	}
+	.world-news .row .col-4 .ad-sec .ad-box .box button{
+		font-size: 1rem !important;
+	}
+
+	.travel-guide .blogs-slider .swiper .swiper-wrapper .swiper-slide .box .title h4{
+		font-size: 1.5rem!important;
+	}
+
+	.shorts .row .col-3 .text-sec {
+		position: absolute;
+		top: 17px;
+		color: #fff;
+		text-align: center;
+		display: none;
+		transition: 0.7s all;
+	}
+}
+/*LAPTOP SCREEN END*/
+
+/*MOBILE SCREEN START*/
+@media screen and (min-device-width: 320px) and (max-device-width: 415px){
+	header .logo-sec .container-fluid{
+		display: block !important;
+	}
+	header .logo-sec .container-fluid .logo{
+		text-align: center;
+	}
+	header .logo-sec .container-fluid .ad{
+		width: 100%;
+	}
+	header .menu-sec ul li {
+		margin-right: 0px;
+		text-transform: capitalize;
+		padding: 15px;
+		transition: 0.3s all;
+	}
+
+	.banner .blogs .row{
+		display: block;
+	}
+	.banner .blogs .row .col-6{
+		width: 100%;
+	}
+
+	.world-news .row{
+		display: block;
+	}
+	.world-news .row .col-8{
+		width: 100%;
+	}
+	.world-news .row .col-4{
+		width: 100%;
+	}
+	.world-news .row .col-4 .ad-sec .ad-box .box {
+		height: 20vh;
+	}
+	.sports-recips .row{
+		display: block;
+	}
+	.sports-recips .row .col-8{
+		width: 100%;
+	}
+	.sports-recips .row .col-4{
+		width: 100%;
+	}
+}
+/*MOBILE SCREEN END*/
+
+

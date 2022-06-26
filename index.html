@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>News Magazine - HTML CSS JS & Bootstrap 5</title>
+	<!-- Libraies -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css.map">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<section class="top-header bg-light pt-2 pb-2">
+			<div class="container-fluid d-flex">
+				<div class="weather-sec d-flex">
+					<i class="fas fa-cloud"></i>
+					<h6>1.8c</h6>
+					<h6>new york</h6>
+				</div>
+
+				<div class="option-sec ms-5">
+					<ul class="d-flex text-capitalize">
+						<li><a href="">sign in/join</a></li>
+						<li><a href="">advertisement</a></li>
+						<li><a href="">blog</a></li>
+						<li><a href="">contact us</a></li>
+						<li><a href="">buy now</a></li>
+					</ul>
+				</div>
+
+				<div class="social-icon ms-auto">
+					<i class="fab fa-behance"></i>
+					<i class="fab fa-facebook-f"></i>
+					<i class="fab fa-instagram"></i>
+				</div>
+			</div>
+		</section>
+
+		<section class="logo-sec pt-4 pb-4">
+			<div class="container-fluid justify-content-between d-flex align-items-center">
+				<div class="logo">
+					<h2 class="text-uppercase">news magazine</h2>
+				</div>
+				<div class="ad">
+					<div class="box d-flex align-items-center text-white">
+						<div class="first-sec mini-box text-center">
+							<h2 class="text-uppercase">newspaper</h2>
+							<h6>the art of publishing</h6>
+						</div>
+						<div class="second-sec mini-box text-capitalize">
+							<h2 class="text-center">the most popular <span class="text-uppercase">news magazine</span><br>html theme</h2>
+						</div>
+						<div class="third-sec mini-box">
+							<button class="ps-5 pe-5 pt-2 pb-2 text-white">buy now</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="menu-sec">
+			<div class="container-fluid d-flex align-items-center">
+				<ul class="d-flex">
+					<li class="active"><a href="" class="d-flex align-items-center">
+						<i class="fas fa-home me-2 fs-2"></i>
+						<h4>home</h4>
+					</a></li>
+					<li><a href="" class="d-flex align-items-center">
+						<i class="fas fa-globe-africa me-2 fs-2"></i>
+						<h4>world</h4>
+					</a></li>
+					<li><a href="" class="d-flex align-items-center">
+						<i class="fas fa-glass-martini me-2 fs-2"></i>
+						<h4>lifestyle</h4>
+					</a></li>
+					<li><a href="" class="d-flex align-items-center">
+						<i class="fas fa-gem fs-2 me-2"></i>
+						<h4>fashion</h4>
+					</a></li>
+					<li><a href="" class="d-flex align-items-center">
+						<i class="fas fa-futbol fs-2 me-2"></i>
+						<h4>sport</h4>
+					</a></li>
+					<li><a href="" class="d-flex align-items-center">
+						<i class="fas fa-music fs-2 me-2"></i>
+						<h4>music</h4>
+					</a></li>
+				</ul>
+
+				<div class="search-bar ms-auto me-5">
+					<i class="fas fa-search fs-2 text-white"></i>
+				</div>
+			</div>
+		</section>
+	</header>
+
+
+	<!-- banner section start -->
+	<section class="banner pt-5 pb-5">
+		<div class="container-fluid">
+			<div class="trending-blogs ps-5 pe-5 d-flex align-items-center pt-3 pb-3">
+				<div class="tag me-3">
+					<h4 class="bg-danger m-0 pt-1 pb-1 ps-2 pe-2 text-uppercase text-white">trending now</h4>
+				</div>
+				<div class="title">
+					<h2 class="text-capitalize">gigabyte GeForce GTX 950 review. pricing is everything.</h2>
+				</div>
+			</div>
+
+			<div class="blogs">
+				<div class="row">
+					<div class="col-6 left-side">
+						<div class="bg">
+							<img src="img/girl-cam.jpg" class="w-100">
+						</div>
+						<div class="title-sec text-capitalize text-white">
+							<div class="tag">
+								<h4 class="m-0 pt-1 pb-1 ps-2 pe-2 text-uppercase bg-dark">trending now</h4>
+							</div>
+							<div class="title">
+								<h2 class="text-capitalize">celebrity make-up artist gary cockerill shows you beauty<br>trick</h2>
+							</div>
+							<div class="time">
+								<h5><span>david lee - </span>september 24, 2015</h5>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-6 right-side">
+						<div class="row first-two-box">
+							<div class="col-6 left-side">
+								<div class="bg">
+									<img src="img/food.jpg" class="w-100">
+								</div>
+								<div class="title-sec text-white">
+									<div class="tag">
+										<h4 class="m-0 pt-1 pb-1 ps-2 pe-2 text-uppercase bg-dark text-center">health</h4>
+									</div>
+									<div class="title">
+										<h2 class="text-capitalize">the workout that burns more calories than running</h2>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-6 left-side">
+								<div class="bg">
+									<img src="img/smartphone.jpg" class="w-100">
+								</div>
+								<div class="title-sec text-white">
+									<div class="tag">
+										<h4 class="m-0 pt-1 pb-1 ps-2 pe-2 text-uppercase bg-dark text-center">tech</h4>
+									</div>
+									<div class="title">
+										<h2 class="text-capitalize">gigabyte GeForce GTX 950 review. pricing is everything.</h2>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row second-two-box mt-2">
+							<div class="col-6 left-side">
+								<div class="bg">
+									<img src="img/drawing.jpg" class="w-100">
+								</div>
+								<div class="title-sec text-white">
+									<div class="tag">
+										<h4 class="m-0 pt-1 pb-1 ps-2 pe-2 text-uppercase bg-dark text-center">arts</h4>
+									</div>
+									<div class="title">
+										<h2 class="text-capitalize">a thomas heart benton mural, repurposed as a writing desk</h2>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-6 left-side">
+								<div class="bg">
+									<img src="img/girl.jpg" class="w-100">
+								</div>
+								<div class="title-sec text-white">
+									<div class="tag">
+										<h4 class="m-0 pt-1 pb-1 ps-2 pe-2 text-uppercase bg-dark text-center">fashion</h4>
+									</div>
+									<div class="title">
+										<h2 class="text-capitalize">fashion week parties: night4</h2>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- banner section end -->
+
+
+	<!-- world-news section start -->
+	<section class="world-news pt-5 pb-5">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-8">
+					<div class="title d-flex justify-content-between align-items-center">
+						<div class="title-sec">
+							<h2 class="text-uppercase fw-bold">world news</h2>
+						</div>
+
+						<div class="filter">
+							<ul class="d-flex">
+								<li><a href="">world</a></li>
+								<li><a href="">photography</a></li>
+								<li><a href="">health</a></li>
+								<li><a href="">recipes</a></li>
+								<li><a href="">arts</a></li>
+							</ul>
+						</div>
+					</div>
+					<hr>
+
+					<div class="news-sec">
+						<div class="box d-flex">
+							<div class="mini-box left-box">
+								<div class="img-sec">
+									<img src="img/solider.jpg" class="w-100">
+								</div>
+								<div class="title mt-3s">
+									<h2 class="text-capitalize">georgia solider helped in attack near US based in Afghanistant</h2>
+								</div>
+								<div class="name d-flex align-items-center mt-3">
+									<h4 class="fw-bold me-3 text-uppercase">david lee</h4>
+									<h5 class="text-capitalize">september 24, 2015</h5>
+								</div>
+								<div class="discription mt-3">
+									<p class="fs-4">all right. well, take care yourself. i guese that's what you're best, presense old master? a tremor in the force. the last time felt....</p>
+								</div>
+							</div>
+
+
+							<div class="mini-box right-box ms-4">
+								<div class="lunch-box d-flex">
+									<div class="img-sec">
+										<img src="img/tank.jpg" class="w-100">
+									</div>
+									<div class="title ms-3">
+										<h2 class="fs-3 text-capitalize">cliffs of moher reach 1 million visitors for 2016</h2>
+										<h5 class="text-capitalize">september 25, 2015</h5>
+									</div>
+								</div>
+								<div class="lunch-box d-flex">
+									<div class="img-sec">
+										<img src="img/train.jpg" class="w-100">
+									</div>
+									<div class="title ms-3">
+										<h2 class="fs-3 text-capitalize">a look at how special & mobile gaming increase sales</h2>
+										<h5 class="text-capitalize">september 25, 2015</h5>
+									</div>
+								</div>
+								<div class="lunch-box d-flex">
+									<div class="img-sec">
+										<img src="img/army.jpg" class="w-100">
+									</div>
+									<div class="title ms-3">
+										<h2 class="fs-3 text-capitalize">things to look for in a financial trading platform</h2>
+										<h5 class="text-capitalize">september 25, 2015</h5>
+									</div>
+								</div>
+								<div class="lunch-box d-flex">
+									<div class="img-sec">
+										<img src="img/lion.jpg" class="w-100">
+									</div>
+									<div class="title ms-3">
+										<h2 class="fs-3 text-capitalize">kansas city has a massive network of underground caves</h2>
+										<h5 class="text-capitalize">september 25, 2015</h5>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-4">
+					<div class="social-icon d-flex text-center">
+						<div class="box me-5">
+							<div class="img-sec">
+								<i class="fab fa-facebook-f"></i>
+							</div>
+							<div class="discription">
+								<h4>22,018</h4>
+								<h5>fans</h5>
+							</div>
+						</div>
+						<div class="box">
+							<div class="img-sec">
+								<i class="fab fa-instagram"></i>
+							</div>
+							<div class="discription">
+								<h4>3,029</h4>
+								<h5>followers</h5>
+							</div>
+						</div>
+					</div>
+
+					<div class="ad-sec mt-3">
+						<div class="ad-box">
+							<h5 class="text-center">-advertisement-</h5>
+
+							<div class="box text-white text-center pt-4">
+								<h2 class="text-uppercase fs-1">newspaper</h2>
+								<h5>the art of publishing</h5>
+								<h2 class="slogan mt-5 text-uppercase">the most popular news magazine<br>theme</h2>
+								<button class="ps-5 pe-5 pt-2 pb-2 text-dark text-uppercase fs-3 fw-bolder">buy now</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- world-news section end -->
+
+	<!-- travel guide section start -->
+	<section class="travel-guide">
+		<div class="container-fluid">
+			<div class="title-sec">
+				<h2 class="text-uppercase fw-bold">travel guides</h2>
+			</div>
+			<hr>
+
+			<div class="blogs-slider">
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="box">
+								<div class="img-sec">
+									<img src="img/tibet.jpg" class="w-100">
+
+									<div class="tag">
+										<h4>travel</h4>
+									</div>
+								</div>
+								<div class="title text-start mt-2">
+									<h4 class="fs-2 text-capitalize">10 things you should know before you go to tibet</h4>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="box">
+								<div class="img-sec">
+									<img src="img/vietnam.jpg" class="w-100">
+
+									<div class="tag">
+										<h4>travel</h4>
+									</div>
+								</div>
+								<div class="title text-start mt-2">
+									<h4 class="fs-2 text-capitalize">10 things you should know before you go to tibet</h4>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="box">
+								<div class="img-sec">
+									<img src="img/newyork.jpg" class="w-100">
+
+									<div class="tag">
+										<h4>travel</h4>
+									</div>
+								</div>
+								<div class="title text-start mt-2">
+									<h4 class="fs-2 text-capitalize">10 things you should know before you go to tibet</h4>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="box">
+								<div class="img-sec">
+									<img src="img/vietnam.jpg" class="w-100">
+
+									<div class="tag">
+										<h4>travel</h4>
+									</div>
+								</div>
+								<div class="title text-start mt-2">
+									<h4 class="fs-2 text-capitalize">10 things you should know before you go to tibet</h4>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="box">
+								<div class="img-sec">
+									<img src="img/newyork.jpg" class="w-100">
+
+									<div class="tag">
+										<h4>travel</h4>
+									</div>
+								</div>
+								<div class="title text-start mt-2">
+									<h4 class="fs-2 text-capitalize">10 things you should know before you go to tibet</h4>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="box">
+								<div class="img-sec">
+									<img src="img/tibet.jpg" class="w-100">
+
+									<div class="tag">
+										<h4>travel</h4>
+									</div>
+								</div>
+								<div class="title text-start mt-2">
+									<h4 class="fs-2 text-capitalize">10 things you should know before you go to tibet</h4>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="box">
+								<div class="img-sec">
+									<img src="img/vietnam.jpg" class="w-100">
+
+									<div class="tag">
+										<h4>travel</h4>
+									</div>
+								</div>
+								<div class="title text-start mt-2">
+									<h4 class="fs-2 text-capitalize">10 things you should know before you go to tibet</h4>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="box">
+								<div class="img-sec">
+									<img src="img/tibet.jpg" class="w-100">
+
+									<div class="tag">
+										<h4>travel</h4>
+									</div>
+								</div>
+								<div class="title text-start mt-2">
+									<h4 class="fs-2 text-capitalize">10 things you should know before you go to tibet</h4>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="box">
+								<div class="img-sec">
+									<img src="img/newyork.jpg" class="w-100">
+
+									<div class="tag">
+										<h4>travel</h4>
+									</div>
+								</div>
+								<div class="title text-start mt-2">
+									<h4 class="fs-2 text-capitalize">10 things you should know before you go to tibet</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- travel guide section end -->
+
+
+	<!-- tech-health section start -->
+	<div class="tech-health pt-5 pb-5">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-6 tech-sec">
+					<div class="title">
+						<h2 class="fs-1 text-uppercase">tech</h2>
+					</div>
+					<hr class="blue-line">
+
+					<div class="img-sec">
+						<img src="img/smartphone.jpg" class="w-100">
+
+						<div class="tag text-capitalize">
+							<h4>tech</h4>
+						</div>
+					</div>
+
+					<div class="heading text-capitalize mt-3">
+						<h2>gigabyte GeForce GTX 950 review: pricing is everything</h2>
+					</div>
+
+					<div class="name d-flex mt-3">
+						<h4 class="text-uppercase fw-bold me-3">daivd lee</h4>
+						<h5 class="text-capitalize">september 15, 2015</h5>
+					</div>
+
+					<div class="discription">
+						<p class="fs-3 text-capitalize">all right. well, take care yourself. i guese that's what you're<br> best, presense old master? a tremor in the force.<br> the last time felt....</p>
+					</div>
+
+
+					<div class="two-blogs">
+						<div class="mini-box right-box ms-4">
+							<div class="lunch-box d-flex">
+								<div class="img-sec">
+									<img src="img/tank.jpg" class="w-100">
+								</div>
+								<div class="title ms-3">
+									<h2 class="fs-3 text-capitalize">cliffs of moher reach 1 million visitors for 2016</h2>
+									<h5 class="text-capitalize">september 25, 2015</h5>
+								</div>
+							</div>
+							<div class="lunch-box d-flex">
+								<div class="img-sec">
+									<img src="img/train.jpg" class="w-100">
+								</div>
+								<div class="title ms-3">
+									<h2 class="fs-3 text-capitalize">a look at how special & mobile gaming increase sales</h2>
+									<h5 class="text-capitalize">september 25, 2015</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 health-sec">
+					<div class="title">
+						<h2 class="fs-1 text-uppercase">health</h2>
+					</div>
+					<hr class="red-line">
+
+					<div class="img-sec">
+						<img src="img/book.jpg" class="w-100">
+
+						<div class="tag text-capitalize">
+							<h4>health</h4>
+						</div>
+					</div>
+
+					<div class="heading text-capitalize mt-3">
+						<h2>summer sports that touch serious calories</h2>
+					</div>
+
+					<div class="name d-flex mt-3">
+						<h4 class="text-uppercase fw-bold me-3">daivd lee</h4>
+						<h5 class="text-capitalize">september 15, 2015</h5>
+					</div>
+
+					<div class="discription">
+						<p class="fs-3 text-capitalize">all right. well, take care yourself. i guese that's what you're<br> best, presense old master? a tremor in the force.<br> the last time felt....</p>
+					</div>
+
+
+					<div class="two-blogs">
+						<div class="mini-box right-box ms-4">
+							<div class="lunch-box d-flex">
+								<div class="img-sec">
+									<img src="img/tank.jpg" class="w-100">
+								</div>
+								<div class="title ms-3">
+									<h2 class="fs-3 text-capitalize">cliffs of moher reach 1 million visitors for 2016</h2>
+									<h5 class="text-capitalize">september 25, 2015</h5>
+								</div>
+							</div>
+							<div class="lunch-box d-flex">
+								<div class="img-sec">
+									<img src="img/train.jpg" class="w-100">
+								</div>
+								<div class="title ms-3">
+									<h2 class="fs-3 text-capitalize">a look at how special & mobile gaming increase sales</h2>
+									<h5 class="text-capitalize">september 25, 2015</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- tech-health section end -->
+
+
+	<!-- shorts section start -->
+	<section class="shorts">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-3 text-capitalize">
+					<div class="img-sec">
+						<img src="img/sandle.jpg" class="w-100">
+
+						<div class="text-sec">
+						<div class="tag">
+							<h4>fashion</h4>
+						</div>
+						<div class="title">
+							<h2>the fashion news to know today</h2>
+						</div>
+						<div class="name d-flex justify-content-center">
+							<h4>david lee</h4>
+							<h5>september 25, 2015</h5>
+						</div>
+					</div>
+					</div>
+				</div>
+
+				<div class="col-3 text-capitalize">
+					<div class="img-sec">
+						<img src="img/girl2.jpg" class="w-100">
+
+						<div class="text-sec">
+						<div class="tag">
+							<h4>fashion</h4>
+						</div>
+						<div class="title">
+							<h2>the fashion news to know today</h2>
+						</div>
+						<div class="name d-flex justify-content-center">
+							<h4>david lee</h4>
+							<h5>september 25, 2015</h5>
+						</div>
+					</div>
+					</div>
+				</div>
+
+				<div class="col-3 text-capitalize">
+					<div class="img-sec">
+						<img src="img/shoes.jpg" class="w-100">
+
+						<div class="text-sec">
+						<div class="tag">
+							<h4>fashion</h4>
+						</div>
+						<div class="title">
+							<h2>the fashion news to know today</h2>
+						</div>
+						<div class="name d-flex justify-content-center">
+							<h4>david lee</h4>
+							<h5>september 25, 2015</h5>
+						</div>
+					</div>
+					</div>
+				</div>
+
+				<div class="col-3 text-capitalize">
+					<div class="img-sec">
+						<img src="img/girl3.jpg" class="w-100">
+
+						<div class="text-sec">
+						<div class="tag">
+							<h4>fashion</h4>
+						</div>
+						<div class="title">
+							<h2>the fashion news to know today</h2>
+						</div>
+						<div class="name d-flex justify-content-center">
+							<h4>david lee</h4>
+							<h5>september 25, 2015</h5>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- shorts section end -->
+
+
+	<!-- sports-recips section start -->
+	<section class="sports-recips pt-5 pb-5">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-8 sport-sec">
+					<div class="heading">
+						<h2 class="text-uppercase fs-1 fw-bold">sports</h2>
+					</div>
+					<hr class="green-line">
+					<div class="lunch-box d-flex align-items-center">
+						<div class="img-sec me-4">
+							<img src="img/man-utd.jpg" class="w-100">
+						</div>
+						<div class="text-sec text-capitalize">
+						    <div class="title">
+						    	<h2>man utd skipper again boosted for first england goal after win</h2>
+						    </div>
+						    <div class="tag-name d-flex align-items-center">
+						    	<h4 class="tag me-3">sports</h4>
+						    	<h4 class="me-3">david lee</h4>
+						    	<h5>september 25,2015</h5>
+						    </div>
+						    <div class="discription">
+						    	<p class="fs-4">all right. well, take care yourself. i guese that's what you're best, presense old master? a tremor in the force. the last time felt....</p>
+						    </div>
+						</div>
+					</div>
+
+					<div class="lunch-box d-flex align-items-center">
+						<div class="img-sec me-4">
+							<img src="img/baseball.jpg" class="w-100">
+						</div>
+						<div class="text-sec text-capitalize">
+						    <div class="title">
+						    	<h2>man utd skipper again boosted for first england goal after win</h2>
+						    </div>
+						    <div class="tag-name d-flex align-items-center">
+						    	<h4 class="tag me-3">sports</h4>
+						    	<h4 class="me-3">david lee</h4>
+						    	<h5>september 25,2015</h5>
+						    </div>
+						    <div class="discription">
+						    	<p class="fs-4">all right. well, take care yourself. i guese that's what you're best, presense old master? a tremor in the force. the last time felt....</p>
+						    </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-4 recipe-sec">
+					<div class="heading">
+						<h2 class="fw-bold fs-1 text-uppercase">receipe</h2>
+					</div>
+					<hr class="red-line">
+					<div class="img-sec">
+						<img src="img/food.jpg" class="w-100">
+					</div>
+					<div class="text-sec">
+						<div class="title">
+							<h2 class="text-capitalize">easy breakfast! 4 healthy smoothies bowl recipes to start</h2>
+						</div>
+						<div class="name d-flex align-items-center text-capitalize">
+							<h4 class="fw-bold me-3">david lee</h4>
+							<h5>september 24, 2015</h5>
+						</div>
+						<div class="discription">
+							<p class="fs-4">all right. well, take care yourself. i guese that's what you're best, presense old master? a tremor in the force. the last time felt....</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- sports-recips section end -->
+
+	<!-- footer section start -->
+	<footer>
+		<div class="container text-white text-center">
+			<div class="logo-sec">
+				<h2 class="fs-1 text-uppercase">news magazine</h2>
+			</div>
+			<div class="discription mt-4">
+				<h5 class="text-capitalize fs-4">newspaper is your news, entertainment, music fashion website. we provide you with the latest breaking news and videos straights<br>from the entertainment industry.</h5>
+				<h3 class="text-capitalize mt-4">contact us: <span class="text-primary">dxdeveloper7@gmail.com</span></h3>
+			</div>
+			<div class="social-icon mt-4">
+				<i class="fab fa-behance"></i>
+				<i class="fab fa-instagram"></i>
+			</div>
+		</div>
+	</footer>
+	<!-- footer section end -->
+
+
+	<!-- script -->
+	<script type="text/javascript" src="js/main.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js.map"></script>
+	<script src="https://kit.fontawesome.com/8b5cfa98d2.js" crossorigin="anonymous"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+			slidesPerView: 3,
+			spaceBetween: 30,
+			slidesPerGroup: 3,
+			loop: true,
+			loopFillGroupWithBlank: true,
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+			},
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+		});
+	</script>
+</body>
+</html>
